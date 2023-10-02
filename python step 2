@@ -1,1 +1,39 @@
+The way I determined if my function was correct, was printing the actual value of the volume of a square based pyramid. To the code, i added: 
+
+print(vol_sqr_pyramid(2, 3))
+
+This will ensure that the first parameter which is base (as seen in the code):
+(def vol_sqr_pyramid (base, height)
+
+Is the value of 2 and the value of height is equal to 3.
+
+Since the variables have value, now when you do the math that is in the value of ‘total’. It will equal:
+
+     total_volume = (((base ** 2) * height) / 3)
+     total_volume = (((2^2) * 3) /3)
+     total_volume = ((4 * 3) /3)
+     total_volume = (12/3)
+     total_volume = 4.0
+
+This means that the value that is returned to the user (total) is equal to 4.0 
+
+This is what my code looked like for determining that my function is correct:
+
+#Omaima Gohir
+#4/3/2023
+#this code will return the volume of a square based pyramid
+
+#this function sets the parameter as base and height and defines the function as: volume of square based pyramid
+def vol_sqr_pyramid (base, height):
+#calculates the total volume using the formula - (base^2 * height)/3
+    total_volume = (((base ** 2) * height) / 3)
+#returns user the total volume of a square based pyramid 
+#the variable, total, contains the mathematical operations for the answer
+    return total_volume
+#sets the variable base as 2, and height as 3 and prints the volume in float point form
+Volume = (vol_sqr_pyramid(2, 3))
+
+The answer that is printed is: 4.0
+
+Therefore, my code is correct by using the print formula.
 
