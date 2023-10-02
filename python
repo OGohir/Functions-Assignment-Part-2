@@ -1,0 +1,11 @@
+#Omaima Gohir
+#4/3/2023
+#this code will return the volume of a square based pyramid
+
+#this function sets the parameter as base and height and defines the function as: volume of square based pyramid
+def vol_sqr_pyramid (base, height):
+#calculates the total volume using the formula - (base^2 * height)/3
+    total_volume = (((base ** 2) * height) / 3)
+#returns user the total volume of a square based pyramid 
+#the variable, total, contains the mathematical operations for the answer
+    return total_volume
